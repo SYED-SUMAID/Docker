@@ -48,4 +48,4 @@ Installs Docker Engine, Docker CLI, containerd, Buildx, and Docker Compose.
 
 Verifies that the Docker service is running.
 
-![alt text](<Screenshot (737)-1.png>)
+![alt text](<Screenshot (738)(1).png>)
