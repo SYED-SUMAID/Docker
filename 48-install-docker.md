@@ -40,7 +40,7 @@ Adds Docker's official repository to the system's APT sources.
 
 Installs Docker Engine, Docker CLI, containerd, Buildx, and Docker Compose.
 
-![alt text](<Screenshot (737).png>)
+![alt text](<Screenshot (737)(1).png>)
 
 ## 5. Check Docker Service
 
