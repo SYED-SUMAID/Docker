@@ -1,8 +1,16 @@
 # Run Apache Interactive Terminal in Container
 
-| Purpose: Run an Ubuntu container and install Apache inside it.
-| Objective: Start Apache and verify that the web server is running correctly.
-| Result: Apache is successfully running and responding to requests inside the container.
+## Purpose:
+
+Run an Ubuntu container and install Apache inside it.
+
+## Objective:
+
+Start Apache and verify that the web server is running correctly.
+
+## Result:
+
+Apache is successfully running and responding to requests inside the container.
 
 ## 1. Run Ubuntu Container
 
