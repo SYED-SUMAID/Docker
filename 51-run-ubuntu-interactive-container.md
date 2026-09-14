@@ -17,7 +17,7 @@ Creates and starts an Ubuntu container with an interactive Bash terminal.
 - `-i` → Keeps standard input open
 - `-t` → Allocates a terminal
 - `ubuntu` → Ubuntu image
-- `/bin/bash` → Starts the Bash shell
+- `/bin/bash` → Starts the Bash Shell
 
 ![alt text](<Screenshot 2026-09-14 195210.png>)
 
