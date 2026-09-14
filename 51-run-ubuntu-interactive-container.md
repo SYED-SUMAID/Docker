@@ -1,5 +1,9 @@
 # Run Ubuntu Interactive Container
 
+| Purpose: Pull the Ubuntu image and run it as a Docker container.
+| Objective: Access the Ubuntu container through an interactive Bash terminal and inspect its environment.
+| Result: An Ubuntu container was successfully created, accessed, and verified.
+
 ## 1. Pull Ubuntu Image
 
     sudo docker pull ubuntu
@@ -52,3 +56,7 @@ Displays information about the Ubuntu version running inside the container.
 Exits the interactive container.
 
 ![alt text](<Screenshot 2026-09-14 195044(1).png>)
+
+# Conclusion
+
+The Ubuntu Docker image was successfully downloaded and used to create an interactive container. The container environment, current user, file system, and Ubuntu version were verified before exiting the container.

@@ -1,5 +1,9 @@
 # Run Apache Interactive Terminal in Container
 
+| Purpose: Run an Ubuntu container and install Apache inside it.
+| Objective: Start Apache and verify that the web server is running correctly.
+| Result: Apache is successfully running and responding to requests inside the container.
+
 ## 1. Run Ubuntu Container
 
     sudo docker run -it ubuntu /bin/bash
@@ -61,3 +65,7 @@ Sends a request to Apache running inside the container and displays the response
 Exits the interactive terminal.
 
 ![alt text](<Screenshot 2026-09-14 222117(1).png>)
+
+# Conclusion
+
+Apache was successfully installed and started inside an Ubuntu Docker container. Its status and running processes were verified, and curl localhost confirmed that Apache was successfully serving a webpage from inside the container.
