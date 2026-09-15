@@ -23,7 +23,7 @@ Understand Docker port mapping and learn how to make an application running insi
 
 ## 🖼️ Port Mapping Overview
 
-![Docker Port Mapping](images/docker-port-mapping.png)
+
 
 Docker connects a **host port** to a **container port**.
 
@@ -75,6 +75,8 @@ This means:
 
 This starts an Apache container and maps port `8080` on the host to port `80` inside the container.
 
+![alt text](<Screenshot 2026-09-15 123446.png>)
+
 ### 🔍 Flag Breakdown
 
 | **Flag** | **Full Form / Syntax** | **Purpose** |
@@ -84,11 +86,16 @@ This starts an Apache container and maps port `8080` on the host to port `80` in
 | `8080:80` | `HOST:CONTAINER` | Maps host `8080` to container `80` |
 | `httpd` | Docker Image | Apache HTTP Server image |
 
-### 📸 Result
+###  Result
 
-![Docker Run Port Mapping](images/docker-run-port-mapping.png)
+The Apache container was successfully started and accessed through the mapped host port `8080`.
 
----
+    Host Port 8080 → Container Port 80
+
+The application is successfully reachable at:
+
+    http://localhost:8080
+
 
 ## Part 3 — Check the Running Container
 
@@ -112,7 +119,7 @@ This means:
 
 ### 📸 Output
 
-![Docker PS Port Mapping](images/docker-ps-port-mapping.png)
+![alt text](<Screenshot 2026-09-15 123650.png>)
 
 ---
 
@@ -141,7 +148,7 @@ Docker forwards the request to port `80` inside the container.
 
 ### 📸 Apache Page
 
-![Apache Container](images/apache-container-browser.png)
+![alt text](<Screenshot 2026-09-15 123650-1.png>)
 
 ---
 
@@ -239,7 +246,6 @@ Docker automatically assigns an available host port to the exposed container por
 
 ## 📊 Port Mapping Flow
 
-![Docker Port Mapping Flow](images/docker-port-flow.png)
 
     ┌──────────┐
     │ Browser  │
@@ -354,8 +360,6 @@ So the complete flow is:
 ---
 
 ## ✅ Lab Complete
-
-You have learned:
 
 - Docker port mapping
 - `-p` and `-P`
