@@ -148,7 +148,7 @@ Docker forwards the request to port `80` inside the container.
 
 ### 📸 Apache Page
 
-![alt text](<Screenshot 2026-09-15 123650-1.png>)
+![alt text](<Screenshot (759)(1).png>)
 
 ---
 
