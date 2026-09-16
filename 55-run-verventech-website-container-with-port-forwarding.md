@@ -69,7 +69,7 @@ The output should show the container with a port mapping similar to:
 
 This tells us that Docker has successfully connected port `8080` on the host to port `80` inside the container.
 
-![alt text](<Screenshot 2026-09-16 152911.png>)
+![alt text](<Screenshot 2026-09-16 152911(2)-1.png>)
 
 ---
 
