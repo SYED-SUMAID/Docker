@@ -87,7 +87,7 @@ The flow is:
 
     Browser → localhost:8080 → Docker → Container:80 → Website
 
-![alt text](<Screenshot (764)(1).png>)
+![alt text](<Screenshot (764)(2).png>)
 
 ---
 
