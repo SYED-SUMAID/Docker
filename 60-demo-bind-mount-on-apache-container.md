@@ -122,7 +122,7 @@ The updated content  appeared immediately.
 
 No container rebuild or restart is required.
 
-![alt text](<Screenshot (790).png>)
+![alt text](<Screenshot (790)-1.png>)
 
 ---
 
