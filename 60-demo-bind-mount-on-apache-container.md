@@ -118,7 +118,7 @@ Go back to:
 
 Refresh the page.
 
-The updated content should appear immediately.
+The updated content  appeared immediately.
 
 No container rebuild or restart is required.
 
