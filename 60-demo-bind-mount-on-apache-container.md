@@ -105,7 +105,7 @@ Check the updated file on the host:
 
 ![alt text](<Screenshot 2026-09-17 195014(1).png>)
 
-![alt text](<Screenshot (792)-1.png>)
+![alt text](<Screenshot (792)-2.png>)
 
 
 ---
