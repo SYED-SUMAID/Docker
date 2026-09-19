@@ -26,16 +26,14 @@ The **bridge network** is Docker's default networking method.
 
 ### Run Apache containers
 
-    docker run -dit --name apache1 --network bridge httpd
-    docker run -dit --name apache2 --network bridge httpd
+    docker run -dit --name apache30 --network bridge httpd
 
 Check the network:
 
     docker network inspect bridge
 
-
-
-![alt text](<Screenshot (804)(1).png>)
+![alt text](<Screenshot 2026-09-19 135957(1)(1)-1.png>)
+![alt text](<Screenshot (804)(1)-1.png>)
 
 ### Simple idea
 
@@ -56,8 +54,8 @@ A custom bridge network is a network that **we create ourselves**.
 
 ### Run Apache containers
 
-    docker run -dit --name apache10 --network my-network httpd
-    docker run -dit --name apache20 --network my-network httpd
+    docker run -dit --name apache1 --network my-network httpd
+    docker run -dit --name apache2 --network my-network httpd
 
 Check the network:
 
@@ -65,7 +63,7 @@ Check the network:
 
 ![alt text](<Screenshot 2026-09-19 083903.png>)
 
-[alt text](<Screenshot (804)(1).png>)
+
 
 
 ### Test communication
@@ -166,15 +164,15 @@ The container has no external network connection.
 
 Create an Apache container:
 
-    docker run -dit --name apache1 httpd
+    docker run -dit --name apache30 httpd
 
 Connect it to the custom network:
 
-    docker network connect my-network apache1
+    docker network connect my-network apache30
 
 Check the networks:
 
-    docker inspect apache1 --format '{{json .NetworkSettings.Networks}}'
+    docker inspect apache30 --format '{{json .NetworkSettings.Networks}}'
 
 ![alt text](<Screenshot 2026-09-19 135957(1)(1).png>)
 
