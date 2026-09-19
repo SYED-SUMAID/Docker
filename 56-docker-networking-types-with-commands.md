@@ -67,9 +67,9 @@ Check the network:
 
 ### Test communication
 
-Enter `apache1`:
+Enter `apache10`:
 
-    docker exec -it apache1 bash
+    docker exec -it apache10 bash
 
 Install curl:
 
