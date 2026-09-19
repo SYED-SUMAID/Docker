@@ -33,7 +33,6 @@ Check the network:
     docker network inspect bridge
 
 ![alt text](<Screenshot 2026-09-19 135957(1)(1)-1.png>)
-![alt text](<Screenshot (804)(1)-1.png>)
 
 ### Simple idea
 
@@ -63,7 +62,7 @@ Check the network:
 
 ![alt text](<Screenshot 2026-09-19 083903.png>)
 
-
+![alt text](<Screenshot (804)(1)-3.png>)
 
 
 ### Test communication
@@ -147,6 +146,8 @@ Check its network:
 Exit:
 
     exit
+
+![alt text](<Screenshot 2026-09-19 125002.png>)
 
 ![alt text](<Screenshot 2026-09-19 125532-1.png>)
 
