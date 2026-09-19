@@ -59,7 +59,7 @@ Add:
 
 ## 🔨🖼️ 5. Build and Check the Image
 
-    docker build -t my-apache .
+    docker build -t my-website .
 
 `-t my-website` gives the image a name.
 
@@ -75,7 +75,7 @@ Add:
 
 ## 🚀 6. Run the Container and check it
 
-    docker run -d -p 8087:80 --name apache-container my-apache
+    docker run -d -p 8087:80 --name apache-container my-website
 
 ### 🔗 Port Mapping
 
