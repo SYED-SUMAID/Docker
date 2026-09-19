@@ -88,10 +88,10 @@ The host's port `8087` is connected to Apache's port `80` inside the container.
 
     docker ps
 
-This confirms that the Apache container is running.
 
 ![alt text](my-apache-container.png)
 
+This confirms that the Apache container is running.
 
 ## 🌍 7. Open the Website
 
