@@ -107,7 +107,7 @@ Remove the previous containers:
 
 Run Apache using host networking:
 
-    docker run -d --name apache-host --network host httpd
+    docker run -d --name apache-host-container --network host httpd
 
 ![alt text](<Screenshot 2026-09-19 155706.png>)
 
@@ -133,7 +133,7 @@ The `none` network gives the container **no normal network connection**.
 
 Run an Ubuntu container:
 
-    docker run -dit --name no-network --network none ubuntu bash
+    docker run -dit --name no-network-container --network none ubuntu bash
 
 Enter the container:
 
