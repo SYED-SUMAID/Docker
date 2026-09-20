@@ -163,6 +163,7 @@ This image:
 
     docker build -t portfolio-web ./web
 
+![alt text](<Screenshot (823).png>)
 ---
 
 # ▶️ Run PHP + Apache Container
