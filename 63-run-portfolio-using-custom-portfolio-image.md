@@ -214,6 +214,10 @@ Instead of using:
 
 Docker's internal DNS resolves the PostgreSQL container name to its container IP address.
 
+![alt text](<Screenshot 2026-09-20 125400.png>)
+
+![alt text](image-8.png)
+
 ---
 
 # 🐳 Check Both Containers
@@ -278,7 +282,8 @@ The PHP application successfully communicates with PostgreSQL through the custom
 - Installing PHP PostgreSQL extensions
 - Using PostgreSQL initialization scripts
 - Creating database tables and views
-- Verifying container-to-container communication
 - Publishing a container port to the host
 
+
+Thank you...
 ---
