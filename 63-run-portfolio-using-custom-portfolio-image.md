@@ -178,6 +178,7 @@ This image:
       -e DB_PASSWORD=12345 \
       portfolio-web
 
+![alt text](<Screenshot 2026-09-20 125107.png>)
 ---
 
 # 🔐 Environment Variables
