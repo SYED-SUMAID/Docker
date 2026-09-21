@@ -230,8 +230,7 @@ You should see:
     portfolioDB-new
     portfolio-web-new
 
-![alt text](image-6.png)
-
+![alt text](image-9.png)
 
 ---
 
